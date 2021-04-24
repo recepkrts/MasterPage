@@ -1,0 +1,63 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="GenelTasarim.master.cs" Inherits="GenelTasarim" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+
+
+        <br />
+        <asp:Menu ID="Menu1" runat="server" OnMenuItemClick="Menu1_MenuItemClick" Orientation="Horizontal" StaticSubMenuIndent="16px">
+            <Items>
+                <asp:MenuItem NavigateUrl="~/sayfa1.aspx" Text="sayfa1" Value="sayfa1"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/sayfa2.aspx" Text="sayfa2" Value="sayfa2"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/sayfa3.aspx" Text="sayfa3" Value="sayfa3"></asp:MenuItem>
+            </Items>
+        </asp:Menu>
+        <br />
+        <br />
+
+
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+  
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        Sayfanın Alt kısmı...</p>
+    <p>
+        &nbsp;</p>
+</body>
+</html>
